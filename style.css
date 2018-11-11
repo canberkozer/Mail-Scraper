@@ -1,0 +1,87 @@
+body {
+    font-weight: 400;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+#container {
+    position: relative;
+}
+
+#wrapper {
+    min-height: 560px;		
+    width: 820px;	
+    margin:0 auto;
+    padding-top:50px;
+}
+
+#form {
+    margin:0px auto;
+    width: 500px;
+    background-color: white;
+    padding:20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+
+#wrapper input[type="text"],#wrapper input[type="submit"], #wrapper input[type="button"] {
+    outline: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#wrapper input[type="text"] {
+    width: 650px;
+    margin:4px 0px 10px 0px;
+    padding: 10px 10px 10px 10px;	
+    border: 1px solid #0069D9;
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing : content-box;
+    box-sizing : content-box;
+}                
+
+#wrapper input[type="text"]:active,
+#wrapper input[type="text"]:focus {
+    border: 1px solid #0069D9;
+    background: #FFFFFF;	
+    -webkit-box-shadow: 4px 4px 4px #000;
+    -moz-box-shadow: 4px 4px 4px #000;
+    box-shadow: 4px 4px 4px #000;
+}
+
+
+#wrapper span.button input, #refresh {
+    height:35px;
+    width:100px;
+    cursor: pointer;	
+    background-color: #0069D9;
+    padding: 8px 10px;
+    font-family: 'BebasNeueRegular','Arial Narrow',Arial,sans-serif;
+    color: #000;
+    font-size: 14px;
+    margin-top:10px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);	
+    border: none;       
+
+}
+
+#input_text {
+    width:300px;
+}
+
+#progress_bar {
+    text-align:center;
+}
+
+#script_status {
+    display:none;
+}
+
+.error {
+    color:red;
+}
+
